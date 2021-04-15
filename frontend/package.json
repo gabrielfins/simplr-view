@@ -8,24 +8,26 @@
     "foreman": "^3.0.1"
   },
   "dependencies": {
+    "@gabrielfins/ripple-effect": "^1.0.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
-  "main": "./src/electron-starter.js",
+  "main": "./src/electron/electron-starter.js",
   "scripts": {
     "start": "nf start -p 3000",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "electron-start": "node src/electron-wait-react",
+    "electron-start": "node src/electron/electron-wait-react",
     "react-start": "react-scripts start"
   },
   "eslintConfig": {

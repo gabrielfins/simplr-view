@@ -1,4 +1,4 @@
-export default function Options() {
+export default function Report() {
     return (
         <div>
             

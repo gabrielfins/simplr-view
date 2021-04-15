@@ -1,7 +1,7 @@
-export default function Options() {
+export default function AddSupplier() {
     return (
         <div>
-            
+
         </div>
     );
 }
