@@ -1,0 +1,47 @@
+.scrollbar {
+    width: 18px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .3s;
+
+    &:hover {
+        background-color: rgba(#FFFFFF, .05);
+        width: 22px;
+    }
+}
+
+.scrollBtn {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.scrollTrack {
+    width: 100%;
+    height: 100%;
+    padding: 3px 6px;
+    transition: .3s;
+
+    &:hover .scroll {
+        border-radius: 5px;
+    }
+}
+
+.scroll {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(#FFFFFF, .2);
+
+    &:active {
+        background-color: rgba(#FFFFFF, .4);
+    }
+}

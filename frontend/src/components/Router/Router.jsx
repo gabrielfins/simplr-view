@@ -1,16 +1,15 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Clients from './pages/Clients';
-import Suppliers from './pages/Suppliers';
-import Employees from './pages/Employees';
-import Sales from './pages/Sales';
-import AddClient from './pages/add/Client';
-import AddSupplier from './pages/add/Supplier';
-import AddEmployee from './pages/add/Employee';
-import Report from './pages/Report';
-import Options from './pages/Options';
-import About from './pages/About';
+import Navbar from 'components/Navbar';
+import Sales from 'pages/Sales';
+import Clients from 'pages/Clients';
+import Suppliers from 'pages/Suppliers';
+import Employees from 'pages/Employees';
+import AddClient from 'pages/add/Client';
+import AddSupplier from 'pages/add/Supplier';
+import AddEmployee from 'pages/add/Employee';
+import Report from 'pages/Report';
+import Options from 'pages/Options';
+import About from 'pages/About';
 
 export default function Routes() {
     return (
@@ -18,7 +17,7 @@ export default function Routes() {
             <Navbar />
             <Switch>
                 <Route exact path="/">
-                    <Home />
+                    <Sales />
                 </Route>
                 <Route exact path="/clients">
                     <Clients />
@@ -28,9 +27,6 @@ export default function Routes() {
                 </Route>
                 <Route exact path="/employees">
                     <Employees />
-                </Route>
-                <Route exact path="/sales">
-                    <Sales />
                 </Route>
                 <Route path="/clients/add">
                     <AddClient />

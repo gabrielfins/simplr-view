@@ -1,8 +1,9 @@
-import './scss/app.scss';
-import Routes from './Routes';
+import 'scss/app.scss';
+import 'scss/normalize.scss';
+import Router from 'components/Router/Router';
 
 export default function App() {
   return (
-    <Routes />
+    <Router />
   );
 }
