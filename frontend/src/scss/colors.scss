@@ -1,0 +1,80 @@
+:root {
+    --main-text-color: #f8f8f8;
+    --secondary-text-color: #d3d3d3;
+    --main-background: #202020;
+    --highlight-background: #121212;
+    --main-border-color: #ABABAB;
+    --marine: #335DCB;
+    --blue: #3496E0;
+    --olive: #33AA33;
+    --green: #79B220;
+    --amber: #BA7D1C;
+    --yellow: #E5AD30;
+    --red: #B22222;
+    --orange: #D15415;
+    --pink: #D3318D;
+    --salmon: #E05570;
+    --purple: #6B4AD1;
+    --violet: #AE3CD3;
+    --main-color: var(--marine);
+}
+
+@mixin light-theme {
+    &.light-theme {
+        --main-background: #E6EAF4;
+        --highlight-background: #cfd2db;
+        --main-text-color: #292929;
+        --secondary-text-color: #5e5e5e;
+        --main-border-color: #ABABAB;
+    }
+}
+
+@mixin colors {
+    &.marine {
+        --main-color: var(--marine);
+    }
+
+    &.blue {
+        --main-color: var(--blue);
+    }
+
+    &.olive {
+        --main-color: var(--olive);
+    }
+
+    &.green {
+        --main-color: var(--green);
+    }
+
+    &.amber {
+        --main-color: var(--amber);
+    }
+
+    &.yellow {
+        --main-color: var(--yellow);
+    }
+
+    &.red {
+        --main-color: var(--red);
+    }
+
+    &.orange {
+        --main-color: var(--orange);
+    }
+
+    &.pink {
+        --main-color: var(--pink);
+    }
+
+    &.salmon {
+        --main-color: var(--salmon);
+    }
+
+    &.purple {
+        --main-color: var(--purple);
+    }
+
+    &.violet {
+        --main-color: var(--violet);
+    }
+}
