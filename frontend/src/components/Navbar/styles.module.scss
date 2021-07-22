@@ -45,7 +45,7 @@ body {
     background-color: var(--highlight-background);
     gap: 1.4rem;
 
-    &:hover {
+    &:hover, &:focus {
         background-color: var(--main-background);
     }
 

@@ -41,3 +41,13 @@ a {
     color: var(--main-text-color);
     text-decoration: none;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+    box-shadow: 0 0 0 2.9rem var(--main-background) inset !important;
+    -webkit-text-fill-color: var(--main-text-color);
+}
+

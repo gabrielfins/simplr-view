@@ -1,6 +1,4 @@
-import { FaTruck } from 'react-icons/fa';
-import logo from '../../images/simplr-view-logo.svg';
-import { Input } from '../../components/Inputs';
+import { Input, Select } from '../../components/Inputs';
 import s from './styles.module.scss';
 
 export default function Home() {
@@ -11,12 +9,18 @@ export default function Home() {
                        autoComplete="off"
                        type="email"
                        label="Teste"
-                       leadingIcon={<FaTruck size="2.2rem" />}
-                       trailingIcon={logo}
                        helperText="teste"
                        invalidValueText="erro"
                        maxLength={50}
-                       showCharacterCount={true} />
+                       showCharacterCount={true}
+                />
+                <Select readOnly={true}
+                        label="teste"
+                        options={[
+                            {value: 'funciona', displayText: 'teste'},
+                            {value: 'pra cacete', displayText: 'Teste 2'}
+                        ]}
+                />
             </div>
         </form>
     );
