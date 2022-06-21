@@ -1,0 +1,64 @@
+$colors: (
+  'blue': #3f68ec,
+  'light-blue': #1DA1F2,
+  'purple': #874BC4,
+  'pink': #DA3685,
+  'red': #D6292D,
+  'light-red': #FB4C4C,
+  'orange': #F45422,
+  'yellow': #FFA51F,
+  'green': #2B8C1D,
+  'teal': #17BF63
+);
+
+:root {
+  --primary: var(--blue);
+  --primary-dark: var(--blue-dark);
+  --primary-darker: var(--blue-darker);
+  --primary-transparent: var(--blue-transparent);
+  --primary-transparent-dark: var(--blue-transparent-dark);
+  --primary-background: #121212;
+  --secondary-background: #212121;
+  --primary-text: #FFFFFF;
+  --secondary-text: #737373;
+  --primary-highlight: #212121;
+  --secondary-highlight: #282828;
+  --tertiary-highlight: #3A3A3A;
+  --primary-transparent-highlight: #{rgba(#FFFFFF, .1)};
+  --secondary-transparent-highlight: #{rgba(#FFFFFF, .2)};
+
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+    --#{$name}-dark: #{darken($color, 7%)};
+    --#{$name}-darker: #{darken($color, 14%)};
+    --#{$name}-transparent: #{rgba($color, .1)};
+    --#{$name}-transparent-dark: #{rgba($color, .2)};
+  }
+}
+
+body {
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+  
+  &.light {
+    --primary-background: #FFFFFF;
+    --secondary-background: #e7e7e7;
+    --primary-text: #000000;
+    --secondary-text: #333333;
+    --primary-highlight: #e7e7e7;
+    --secondary-highlight: #dadada;
+    --tertiary-highlight: #b9b9b9;
+    --primary-transparent-highlight: #{rgba(#000000, .2)};
+    --secondary-transparent-highlight: #{rgba(#000000, .4)};
+  }
+
+  @each $name, $color in $colors {
+    &.#{$name} {
+      --primary: var(--#{$name});
+      --primary-dark: var(--#{$name}-dark);
+      --primary-darker: var(--#{$name}-darker);
+      --primary-transparent: var(--#{$name}-transparent);
+      --primary-transparent-dark: var(--#{$name}-transparent-dark);
+    }
+  }
+}

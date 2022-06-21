@@ -1,0 +1,21 @@
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: none;
+  border-radius: .5rem;
+  background-color: transparent;
+  color: var(--secondary-text);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-transparent-highlight);
+  }
+
+  &:active {
+    background-color: var(--secondary-transparent-highlight);
+  }
+}

@@ -1,0 +1,12 @@
+.homeLayout {
+  min-height: 100vh;
+  margin-left: 27rem;
+
+  & main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 100vh;
+    padding: 3.2rem;
+  }
+}

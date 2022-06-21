@@ -1,0 +1,40 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  min-width: 20rem;
+}
+
+.label {
+  color: var(--primary-text);
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  height: 4rem;
+  border: .1rem solid var(--tertiary-highlight);
+  border-radius: .5rem;
+  background-color: var(--secondary-highlight);
+
+  &.hasIcon > input {
+    padding: 0;
+    padding-left: 1.2rem;
+  }
+}
+
+.input {
+  flex: 1;
+  padding: 0 1.2rem;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-text);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+}

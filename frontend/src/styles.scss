@@ -1,0 +1,28 @@
+@import 'scss/colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body, #root {
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.6rem;
+}
+
+button, input {
+  font: inherit;
+}
