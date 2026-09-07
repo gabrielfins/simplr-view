@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EA8FA04-7AF1-4E24-AAAD-1AFBA1FB5A76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SimplrView.My.MyApplication</StartupObject>
+    <RootNamespace>SimplrView</RootNamespace>
+    <AssemblyName>SimplrView</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SimplrView.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SimplrView.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>simplr-view-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942" />
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="cduOpcoes.Designer.vb">
+      <DependentUpon>cduOpcoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cduOpcoes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cduSobre.Designer.vb">
+      <DependentUpon>cduSobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cduSobre.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cduVendas.Designer.vb">
+      <DependentUpon>cduVendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cduVendas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="db_finalstopDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_finalstopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_finalstopDataSet.vb">
+      <DependentUpon>db_finalstopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroCliente.Designer.vb">
+      <DependentUpon>frmCadastroCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroFornecedor.Designer.vb">
+      <DependentUpon>frmCadastroFornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroFornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroFuncionario.Designer.vb">
+      <DependentUpon>frmCadastroFuncionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroFuncionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoricoVendas.Designer.vb">
+      <DependentUpon>frmHistoricoVendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoricoVendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadInformation.Designer.vb">
+      <DependentUpon>frmLoadInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroProduto.Designer.vb">
+      <DependentUpon>frmCadastroProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageBoxYesNoCancel.Designer.vb">
+      <DependentUpon>frmMessageBoxYesNoCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageBoxYesNoCancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewUser.Designer.vb">
+      <DependentUpon>frmNewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonalizacao.Designer.vb">
+      <DependentUpon>frmPersonalizacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonalizacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioCliente.Designer.vb">
+      <DependentUpon>frmRelatorioCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioCupomFiscal.Designer.vb">
+      <DependentUpon>frmRelatorioCupomFiscal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioCupomFiscal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioFornecedor.Designer.vb">
+      <DependentUpon>frmRelatorioFornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioFornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioFuncionario.Designer.vb">
+      <DependentUpon>frmRelatorioFuncionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioFuncionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioProduto.Designer.vb">
+      <DependentUpon>frmRelatorioProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageBoxOK.Designer.vb">
+      <DependentUpon>frmMessageBoxOK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageBoxOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageBoxYesNo.Designer.vb">
+      <DependentUpon>frmMessageBoxYesNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageBoxYesNo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions.vb" />
+    <Compile Include="mdlSettings.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyMessageBox.vb" />
+    <Compile Include="Settings.vb" />
+    <Compile Include="Valida_CPF_CNPJ.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cduOpcoes.resx">
+      <DependentUpon>cduOpcoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cduSobre.resx">
+      <DependentUpon>cduSobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cduVendas.resx">
+      <DependentUpon>cduVendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroCliente.resx">
+      <DependentUpon>frmCadastroCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroFornecedor.resx">
+      <DependentUpon>frmCadastroFornecedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroFuncionario.resx">
+      <DependentUpon>frmCadastroFuncionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoricoVendas.resx">
+      <DependentUpon>frmHistoricoVendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadInformation.resx">
+      <DependentUpon>frmLoadInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroProduto.resx">
+      <DependentUpon>frmCadastroProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBoxYesNoCancel.resx">
+      <DependentUpon>frmMessageBoxYesNoCancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewUser.resx">
+      <DependentUpon>frmNewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonalizacao.resx">
+      <DependentUpon>frmPersonalizacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioCliente.resx">
+      <DependentUpon>frmRelatorioCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioCupomFiscal.resx">
+      <DependentUpon>frmRelatorioCupomFiscal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioFornecedor.resx">
+      <DependentUpon>frmRelatorioFornecedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioFuncionario.resx">
+      <DependentUpon>frmRelatorioFuncionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioProduto.resx">
+      <DependentUpon>frmRelatorioProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBoxOK.resx">
+      <DependentUpon>frmMessageBoxOK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBoxYesNo.resx">
+      <DependentUpon>frmMessageBoxYesNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioClientes.rdlc" />
+    <EmbeddedResource Include="RelatorioCupomFiscal.rdlc" />
+    <EmbeddedResource Include="RelatorioFornecedores.rdlc" />
+    <EmbeddedResource Include="RelatorioFuncionarios.rdlc" />
+    <EmbeddedResource Include="RelatorioProdutos.rdlc" />
+    <EmbeddedResource Include="RelatorioVendas.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="db_finalstopDataSet.xsc">
+      <DependentUpon>db_finalstopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_finalstopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_finalstopDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_finalstopDataSet.xss">
+      <DependentUpon>db_finalstopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\error-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final-stop-icon-round-clean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta-yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_visibility_off_white_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_visibility_white_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+    <None Include="Resources\arrow-left.png" />
+    <None Include="Resources\arrow-right.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\trash.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\cliente.png" />
+    <None Include="Resources\fornecedor.png" />
+    <None Include="Resources\funcionario.png" />
+    <None Include="Resources\produto.png" />
+    <None Include="Resources\drop-image.png" />
+    <None Include="Resources\select-photo-new.png" />
+    <None Include="Resources\remove.png" />
+    <None Include="Resources\simplr-view-logo.png" />
+    <None Include="Resources\refresh-yellow.png" />
+    <None Include="Resources\remove-yellow.png" />
+    <None Include="Resources\add-circle-yellow.png" />
+    <None Include="Resources\selected color.png" />
+    <None Include="Resources\selected color1.png" />
+    <None Include="Resources\select-image-newer.png" />
+    <None Include="Resources\select-photo.png" />
+    <None Include="Resources\select-photo-2.png" />
+    <None Include="Resources\simplr-view-icon-png.png" />
+    <Content Include="simplr-view-icon.ico" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

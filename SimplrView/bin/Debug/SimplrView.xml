@@ -1,0 +1,361 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SimplrView
+</name>
+</assembly>
+<members>
+<member name="T:SimplrView.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.add">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.add_circle_yellow">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.arrow_left">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.arrow_right">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.baseline_visibility_off_white_36dp">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.baseline_visibility_white_36dp">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.cliente">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.close">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.drop_image">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.edit">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.error_icon">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.final_stop_icon_round_clean">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.fornecedor">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.funcionario">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.information_icon">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.minimize">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.pass">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.produto">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.refresh_yellow">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.remove">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.remove_yellow">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.save">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.select_image_newer">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.select_photo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.select_photo_2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.select_photo_new">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.selected_color">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.selected_color1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.seta_yellow">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.simplr_view_icon_png">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.simplr_view_logo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.trash">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.user">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SimplrView.My.Resources.Resources.warning_icon">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbclienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbfornecedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbprodutoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbvendaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbfuncionarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbpersonalizacaoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbclienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbfornecedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbprodutoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbvendaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbfuncionarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbpersonalizacaoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbclienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbfornecedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbprodutoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbvendaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbfuncionarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSet.tbpersonalizacaoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.tbclienteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.tbfornecedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.tbprodutoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.tbvendaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.tbfuncionarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.tbpersonalizacaoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SimplrView.db_finalstopDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SimplrView.db_finalstopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SimplrView.db_finalstopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.UpdateAll(SimplrView.db_finalstopDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SimplrView.db_finalstopDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
